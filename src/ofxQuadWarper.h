@@ -60,7 +60,7 @@ class ofxQuadWarper {
 	
 		ofVec2f	_warpPoints[4];    //< projection warp points
 		double _warpMatrix[3][3];  //< interim projection warping matrix
-		GLfloat _glWarpMatrix[16]; //< projection warping matrix
+		float _glWarpMatrix[16]; //< projection warping matrix
 	
 		bool _bPushed; //< was the warp pushed?
 };

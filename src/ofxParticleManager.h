@@ -94,7 +94,7 @@ class ofxParticleManager {
         }
 	
 		/// get access to the particles vector
-		vector<ofxParticle*>& getParticles() {return particles;};
+		std::vector<ofxParticle*>& getParticles() {return particles;};
 		
 	/// \section Update & Draw
 

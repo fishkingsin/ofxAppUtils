@@ -118,7 +118,7 @@ class ofxMovingAverage {
 	protected:
 
 		unsigned int windowSize; //< window size
-		vector<double> window;   //< current values
+		std::vector<double> window;   //< current values
 		double sum;              //< current value sum
 		double value;            //< current averaged value
 		bool bUpdateValue;       //< does the value need to be updated?
